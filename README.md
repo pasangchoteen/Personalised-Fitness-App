@@ -1,66 +1,66 @@
 # Personalized Fitness App
 
 ## Overview
-The Personalized Fitness App is designed to help users achieve their health and fitness goals by providing tailored workout and nutrition plans. The app allows users to log workouts, track progress, and receive personalized recommendations. It integrates with wearable devices to sync data seamlessly and enables fitness trainers and nutritionists to offer professional guidance.
+The Personalized Fitness App aims to provide users with tailored workout plans and nutrition guidance based on their individual fitness goals. This project includes detailed use case and context diagrams that outline the system's functionality and interactions with external entities.
+
+## Diagrams Included
+1. **Use Case Diagram**: Visual representation of the interactions between users and the system, highlighting various use cases such as user registration, workout plan generation, and feedback submission.
+2. **Context Diagram**: Overview of the system's boundaries and interactions with external entities, illustrating data flows between users, the system, and other components.
+
+## Context Diagram
+
+### Description
+The context diagram illustrates the Personalized Fitness App's interactions with external entities, defining its boundaries and data flow.
+
+### External Entities
+- **User**: Inputs fitness goals, receives personalized plans, and provides feedback.
+- **Nutritionist**: Sends dietary recommendations and receives user updates.
+- **Fitness Tracker Device**: Sends workout data for progress tracking.
+
+### Interactions
+- **User to App**: Submits goals and receives plans.
+- **App to User**: Delivers workout plans and progress updates.
+- **Nutritionist to App**: Updates nutritional plans.
+- **Fitness Tracker to App**: Sends workout data.
+
+## Use Case Diagram
+
+### Description
+The use case diagram outlines the app's functionality by showing interactions between users and the system.
+
+### Actors
+- **User**: Manages personal fitness and nutrition.
+- **Nutritionist**: Provides dietary guidance.
+- **Admin**: Oversees app content and feedback.
+
+### Use Cases
+1. **User Registration**: Users create accounts; can recover passwords (extend).
+2. **Create Fitness Profile**: Users input goals and metrics.
+3. **Generate Workout Plan**: Custom plans are created; includes nutrition recommendations.
+4. **Track Progress**: Users log workouts and monitor progress.
+5. **Receive Feedback**: Users provide feedback to refine plans.
+6. **Join Challenges**: Users participate in fitness challenges for motivation.
+7. **Nutrition Update**: Nutritionists adjust dietary plans based on feedback.
+
+### Relationships
+- **Include**: Generating workout plans includes nutrition recommendations.
+- **Extend**: Password recovery extends user registration.
 
 ## Features
-- **User Accounts**: Users can create and manage their profiles.
-- **Workout Logging**: Users can log their workouts and monitor progress.
-- **Nutrition Tracking**: Track dietary intake and receive meal suggestions.
-- **Personalized Recommendations**: Tailored workout and nutrition plans based on user data.
-- **Integration with Wearables**: Sync data from fitness trackers and smartwatches.
-- **Professional Guidance**: Trainers and nutritionists can provide personalized support.
+- Personalized workout plans based on user input.
+- Community challenges to enhance user engagement.
+- Feedback mechanism for continuous improvement.
 
-## Diagrams
-### Use Case Diagram
-![Use Case Diagram](path/to/your/use_case_diagram.png)
-*This diagram illustrates the interactions between users, trainers, and the app's functionalities.*
+## Future Work
+This project serves as a foundational step towards developing the app. Future enhancements may include:
+- Building the application based on the defined use cases.
+- Implementing user stories and acceptance criteria into the development process.
 
-### Context Diagram
-![Context Diagram](path/to/your/context_diagram.png)
-*This diagram shows the app's relationship with external entities, highlighting user engagement and data flow.*
+## Contributing
+Contributions are welcome! If you have ideas or suggestions for features, feel free to create an issue or submit a pull request.
 
-## Getting Started
-To run the Personalized Fitness App locally, follow these steps:
+## License
+This project is licensed under the MIT License.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/personalized-fitness-app.git
-   ```
-
-2. Navigate to the project directory:
-  ```bash
-    cd personalized-fitness-app
-  ```
-
-3. Install the required dependencies:
-  ```bash
-    npm install
-  ```
-
-4. Start the application:
-  ```bash
-    npm start
-  ```
-Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-  ```bash
-    git checkout -b feature/YourFeature
-  ```
-3. Commit your changes:
-  ```bash
-    git commit -m "Add some feature"
-  ```
-4. Push to the branch:
-  ```bash
-    git push origin feature/YourFeature
-  ```
-5. Open a Pull Request.
- 
-   
-   
-
+## Contact
+For any inquiries, please contact [Pasang Choteen Sherpa](mailto:pasangchoteensherpacs@gmail.com).
